@@ -48,7 +48,7 @@ num_channels = 1  # Si imagen blanco/negro = 1     rgb = 3
 img_shape = (width, height, num_channels)
 # cantidad elementos clasificar
 #Cambiar ruta para buscar archivos
-dirc = "D:/universidad/2022-2/inteligentes 2/archive/"
+dirc = "D:/universidad/2022-2/inteligentes 2/proyecto inteligentes 2 entrenamiento/archive/"
 
 # CargaImagen
 imagenes, probabilidades = cargarDatos(
