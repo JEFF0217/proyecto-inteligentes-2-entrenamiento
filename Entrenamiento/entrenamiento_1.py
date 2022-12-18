@@ -47,8 +47,7 @@ pixeles = width * height
 num_channels = 1  # Si imagen blanco/negro = 1     rgb = 3
 img_shape = (width, height, num_channels)
 # cantidad elementos clasificar
-
-# dirc="E:/david/U PC/2022-1/Inteligentes/Parte 2/MachineLEarning/Parcial/Crops/cartas_dataset/"
+#Cambiar ruta para buscar archivos
 dirc = "D:/universidad/2022-2/inteligentes 2/archive/"
 
 # CargaImagen
@@ -84,7 +83,6 @@ model.add(Dense(len(CATEGORIAS), activation='softmax'))
 
 
 # COMPILACIÓN
-# model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"])
 model.compile(optimizer="adam", loss="categorical_crossentropy",
               metrics=['accuracy'])
 
